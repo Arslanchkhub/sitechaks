@@ -12,8 +12,6 @@
     box-sizing: unset;
     box-sizing: none;
 
-    
-    
 
 }
 .welcome a{
@@ -32,22 +30,25 @@
     list-style: none;
     margin-top: 0px;
     width:5000px;
-    background-color: rgb(8, 7, 8);
+    background-color: rgb(221, 109, 178);
     opacity: 0.5;
     filter: alpha(opacity=50);
-  
+    
 }
 .toolbar li{
     display: inline-block;
 }
 .toolbar li a{
     padding: 5px 20px;    
-    color: palevioletred;
+    color: rgb(14, 11, 12);
+    box-sizing: content-box;
+    box-sizing: border-box;
+    box-decoration-break: clone;
     
 }
 a:hover{
     color: #940274;
-    animation: reverse;
+    transition: 0s ease-in;
     font-weight: 800;
     
     
@@ -74,9 +75,9 @@ margin: 0;
 padding: 0;
 width: 100%;
 height: 100vh;
-font-family: 'Poppins';
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-weight: 400;
-background: url(8.png) ;
+background: url(24539.jpg) ;
 background-position: center;
 background-size: cover;
 
