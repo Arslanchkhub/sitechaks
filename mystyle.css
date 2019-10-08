@@ -1,23 +1,25 @@
 
 
-*{
-    box-sizing: border-box;
-}
+
+
 .welcome {
     font-size: 400%;
     text-decoration: none;
     padding: 200px 0;
     text-align: center;
     border: none;
-    box-sizing: unset;
-    box-sizing: none;
+    
+    
+
+   
 
 
 }
 .welcome a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: grey;
+    color: rgb(100, 98, 98);
+    opacity: 0.5;
 }
 .navbar ul li {
     display: inline;
@@ -35,27 +37,35 @@
     
     
     
+    
 }
 .toolbar li{
     display: inline-block;
 }
 .toolbar li a{
     padding: 5px 20px;    
-    color: rgb(14, 11, 12);
+    color: rgb(240, 236, 237);
     box-sizing: content-box;
     box-sizing: border-box;
-    box-decoration-break: clone;
+    opacity: 0.8;
+    background-color: rgb(243, 130, 243);
+    margin-left: 1cm;
+    border-radius: 25px;
+    
     
 }
 li a:hover{
-    color: #940274;
+    background-color:  rgb(245, 135, 221);
     transition: 0s ease-in;
-    font-weight: 800;
+    font-weight: none;
+    opacity: unset;
+    border-radius: 25px;
+        
     
 }
 ul li a {
     color: rgb(212, 198, 198);
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     text-decoration-line: none;
     position: top;
@@ -84,3 +94,15 @@ background-size: cover;
 
 }
 
+.search input[type=text]{
+   
+   border:none;
+   font-size: 17px;
+   border-radius: 25px;
+   padding: 10px;
+   width: 30%;
+   position: fixed;
+   top: 55%;
+   left: 35%;
+   
+}
